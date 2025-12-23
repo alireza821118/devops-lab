@@ -1,0 +1,41 @@
+Linux fedora 6.17.1-300.fc43.x86_64 #1 SMP PREEMPT_DYNAMIC Mon Oct  6 15:37:21 UTC 2025 x86_64 GNU/Linux
+
+NAME="Fedora Linux"
+VERSION="43 (Workstation Edition)"
+RELEASE_TYPE=stable
+ID=fedora
+VERSION_ID=43
+VERSION_CODENAME=""
+PRETTY_NAME="Fedora Linux 43 (Workstation Edition)"
+ANSI_COLOR="0;38;2;60;110;180"
+LOGO=fedora-logo-icon
+CPE_NAME="cpe:/o:fedoraproject:fedora:43"
+DEFAULT_HOSTNAME="fedora"
+HOME_URL="https://fedoraproject.org/"
+DOCUMENTATION_URL="https://docs.fedoraproject.org/en-US/fedora/f43/"
+SUPPORT_URL="https://ask.fedoraproject.org/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+REDHAT_BUGZILLA_PRODUCT="Fedora"
+REDHAT_BUGZILLA_PRODUCT_VERSION=43
+REDHAT_SUPPORT_PRODUCT="Fedora"
+REDHAT_SUPPORT_PRODUCT_VERSION=43
+SUPPORT_END=2026-12-02
+VARIANT="Workstation Edition"
+VARIANT_ID=workstation
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+    link/ether 50:7b:9d:ff:5c:7c brd ff:ff:ff:ff:ff:ff
+    altname enx507b9dff5c7c
+3: wlp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether fe:d2:ef:2a:c0:8a brd ff:ff:ff:ff:ff:ff permaddr 74:df:bf:3a:38:e9
+    altname wlx74dfbf3a38e9
+    inet 172.17.34.99/22 brd 172.17.35.255 scope global dynamic noprefixroute wlp2s0
+       valid_lft 535sec preferred_lft 535sec
+    inet6 fe80::56db:cc5c:691d:7cf6/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
